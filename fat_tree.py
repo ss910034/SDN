@@ -83,7 +83,7 @@ class Fattree(Topo):
 
 
 def createTopo():
-    topo = Fattree(8,4)
+    topo = Fattree(4,2)
     topo.createTopo()
     topo.createLink(bw_c2a=0.2,bw_a2e=0.1,bw_e2h=0.05)
 
